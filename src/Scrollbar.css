@@ -1,0 +1,95 @@
+/* Scrollbar Track */
+.c-scrollbar {
+  position: fixed;
+  right: 15px;
+  top: 450px;
+  width: 8px;
+  height: 20vh; /* Total height of scrollbar */
+  transform-origin: center right;
+  border-radius: 10px;
+  background-color: #00000060;
+  z-index: 9999;
+  pointer-events: none;
+  transition: opacity 1s ease, visibility 1s ease; /* Smooth fade-in and fade-out */
+  visibility: hidden; /* Initially hidden */
+  opacity: 0; /* Initially transparent */
+}
+
+/* Scrollbar Thumb */
+.c-scrollbar_thumb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8px;
+  background-color: #008178;
+  border-radius: 10px;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.c-scrollbar.visible {
+  visibility: visible;
+  opacity: 1;  /* Fade in */
+  transition: opacity 1s ease, visibility 1s ease; /* Smooth fade-in and fade-out */
+
+}
+
+.c-scrollbar.hidden {
+  visibility: hidden;
+  opacity: 0;  /* Fade out */
+  transition: opacity 1s ease, visibility 1s ease; /* Smooth fade-in and fade-out */
+
+}
+
+@media (max-width: 1024px) {
+  .c-scrollbar {
+    right: 4px;
+    height: 9.3vh; /* Total height of scrollbar */
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1180px) {
+  .c-scrollbar {
+    right: 4px;
+    height: 8vh; /* Total height of scrollbar */
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .c-scrollbar {
+    right: 4px;
+    height: 10vh; /* Total height of scrollbar */
+  }
+
+  .c-scrollbar_thumb {
+    min-height: 73px; /* Adjust as necessary */
+  }
+}
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .c-scrollbar {
+    right: 4px;
+    height: 9.3vh; /* Total height of scrollbar */
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1180px) {
+  .c-scrollbar {
+    right: 4px;
+    height: 8vh; /* Total height of scrollbar */
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .c-scrollbar {
+    right: 4px;
+    height: 10vh; /* Total height of scrollbar */
+  }
+
+  .c-scrollbar_thumb {
+    min-height: 73px; /* Adjust as necessary */
+  }
+}

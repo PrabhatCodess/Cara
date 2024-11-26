@@ -1,0 +1,18 @@
+import React from 'react'
+
+const Banner = () => {
+  return (
+    <div className='py-20'>
+
+        <div className=' w-full h-96 bg-[#088178] flex flex-col gap-10 items-center justify-center bg-[url("/src/images/banner/b2.jpg")] bg-no-repeat bg-cover bg-center tablets:max-desktop:h-[30vh] tablets:max-desktop:bg-[right_20%_top_10%] tablets:max-desktop:bg-cover tablets:max-desktop:gap-5 mobile:h-[30vh] mobile:bg-[right_20%_top_10%] mobile:bg-cover mobile:gap-5 '>
+            <h1 className='text-4xl font-bold text-white tablets:max-desktop:text-2xl mobile:text-xl'>Repair Services</h1>
+            <h1 className='text-5xl font-bold text-white tablets:max-desktop:text-3xl mobile:text-xl'>Up to <span className='text-red-900'>70% off</span> - All t-shirts & Accessories</h1>
+            <button className='w-64 h-16 bg-white text-black text-xl font-bold rounded-lg px-26 py-4 hover:bg-[#088178] hover:text-white transition-all duration-300 hover:scale-90 tablets:max-desktop:w-48 tablets:max-desktop:h-12 tablets:max-desktop:text-lg tablets:max-desktop:px-10 tablets:max-desktop:py-2 mobile:w-44 mobile:h-14 '>Explore More</button>
+        </div>
+
+
+    </div>
+  )
+}
+
+export default Banner
