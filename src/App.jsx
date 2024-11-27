@@ -5,7 +5,7 @@ import Scrollbar from './Components/Scrollbar';
 import { Routes, Route } from 'react-router-dom';
 import Shop from './Components/Pages/Shop/Shop';
 import Home from './Components/Pages/Home/Home';
-import Blog from './Components/Pages/Blog/blog';
+import Blog from './Components/Pages/Blog/Blog';
 import About from './Components/Pages/About/About';
 import Contact from './Components/Pages/Contact/Contact';
 import Cart from './Components/Pages/Cart/Cart';
