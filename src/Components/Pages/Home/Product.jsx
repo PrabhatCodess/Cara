@@ -22,7 +22,7 @@ const Product = () => {
           <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
           <img className='w-96 h-96 rounded-2xl' src={p1} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
-          <h1 className='text-2xl font-bold text-[#088178] mobile:text-xl'>Cartoon Astronaut T-Shirts</h1>
+          <h1 className='text-2xl font-bold text-[#088178] mobile:max-tablets:text-xl'>Cartoon Astronaut T-Shirts</h1>
           <i className='text-[#ffa500]'><i className="fa-solid fa-star"></i> 
           <i className="fa-solid fa-star"></i>
           <i className="fa-solid fa-star"></i>
@@ -41,7 +41,7 @@ const Product = () => {
         <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20  '>
           <img className='w-96 h-96 rounded-2xl' src={p2} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
-          <h1 className='text-2xl font-bold text-[#088178] mobile:text-xl'>Cartoon Astronaut T-Shirts</h1>
+          <h1 className='text-2xl font-bold text-[#088178] mobile:max-tablets:text-xl'>Cartoon Astronaut T-Shirts</h1>
           <i className='text-[#ffa500]'><i className="fa-solid fa-star"></i> 
           <i className="fa-solid fa-star"></i>
           <i className="fa-solid fa-star"></i>
@@ -60,7 +60,7 @@ const Product = () => {
         <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20  '>
           <img className='w-96 h-96 rounded-2xl' src={p3} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
-          <h1 className='text-2xl font-bold text-[#088178] mobile:text-xl'>Cartoon Astronaut T-Shirts</h1>
+          <h1 className='text-2xl font-bold text-[#088178] mobile:max-tablets:text-xl'>Cartoon Astronaut T-Shirts</h1>
           <i className='text-[#ffa500]'><i className="fa-solid fa-star"></i> 
           <i className="fa-solid fa-star"></i>
           <i className="fa-solid fa-star"></i>
@@ -79,7 +79,7 @@ const Product = () => {
         <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20  '>
           <img className='w-96 h-96 rounded-2xl' src={p4} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
-          <h1 className='text-2xl font-bold text-[#088178] mobile:text-xl'>Cartoon Astronaut T-Shirts</h1>
+          <h1 className='text-2xl font-bold text-[#088178] mobile:max-tablets:text-xl'>Cartoon Astronaut T-Shirts</h1>
           <i className='text-[#ffa500]'><i className="fa-solid fa-star"></i> 
           <i className="fa-solid fa-star"></i>
           <i className="fa-solid fa-star"></i>
@@ -99,7 +99,7 @@ const Product = () => {
            <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20  '>
           <img className='w-96 h-96 rounded-2xl' src={p5} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
-          <h1 className='text-2xl font-bold text-[#088178] mobile:text-xl'>Cartoon Astronaut T-Shirts</h1>
+          <h1 className='text-2xl font-bold text-[#088178] mobile:max-tablets:text-xl'>Cartoon Astronaut T-Shirts</h1>
           <i className='text-[#ffa500]'><i className="fa-solid fa-star"></i> 
           <i className="fa-solid fa-star"></i>
           <i className="fa-solid fa-star"></i>
@@ -120,7 +120,7 @@ const Product = () => {
            <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20  '>
           <img className='w-96 h-96 rounded-2xl' src={p6} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
-          <h1 className='text-2xl font-bold text-[#088178] mobile:text-xl'>Cartoon Astronaut T-Shirts</h1>
+          <h1 className='text-2xl font-bold text-[#088178] mobile:max-tablets:text-xl'>Cartoon Astronaut T-Shirts</h1>
           <i className='text-[#ffa500]'><i className="fa-solid fa-star"></i> 
           <i className="fa-solid fa-star"></i>
           <i className="fa-solid fa-star"></i>
@@ -141,7 +141,7 @@ const Product = () => {
            <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20  '>
           <img className='w-96 h-96 rounded-2xl' src={p7} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
-          <h1 className='text-2xl font-bold text-[#088178] mobile:text-xl'>Cartoon Astronaut T-Shirts</h1>
+          <h1 className='text-2xl font-bold text-[#088178] mobile:max-tablets:text-xl'>Cartoon Astronaut T-Shirts</h1>
           <i className='text-[#ffa500]'><i className="fa-solid fa-star"></i> 
           <i className="fa-solid fa-star"></i>
           <i className="fa-solid fa-star"></i>
@@ -163,7 +163,7 @@ const Product = () => {
            <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20  '>
           <img className='w-96 h-96 rounded-2xl' src={p8} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
-          <h1 className='text-2xl font-bold text-[#088178] mobile:text-xl'>Cartoon Astronaut T-Shirts</h1>
+          <h1 className='text-2xl font-bold text-[#088178] mobile:max-tablets:text-xl'>Cartoon Astronaut T-Shirts</h1>
           <i className='text-[#ffa500]'><i className="fa-solid fa-star"></i> 
           <i className="fa-solid fa-star"></i>
           <i className="fa-solid fa-star"></i>

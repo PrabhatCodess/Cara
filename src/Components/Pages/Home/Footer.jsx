@@ -2,9 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-full h-auto  px-28 py-20 flex items-center justify-between flex-wrap relative tablets:max-desktop:mb-36 tablets:max-desktop:px-10 tablets:max-desktop:py-10 tablets:max-desktop:flex-wrap tablets:max-desktop:gap-10 mobile:mb-20 mobile:px-5 mobile:py-10 mobile:flex-wrap mobile:gap-10 mobile:flex-col  '>
+    <div className='w-full h-auto  px-28 py-20 flex items-start justify-between flex-wrap relative tablets:max-desktop:mb-96 tablets:max-desktop:px-10 tablets:max-desktop:py-10 tablets:max-desktop:flex-wrap tablets:max-desktop:gap-10 mobile:max-tablets:mb-20 mobile:max-tablets:px-5 mobile:max-tablets:py-10 mobile:max-tablets:flex-wrap mobile:max-tablets:gap-10 mobile:max-tablets:flex-col  '>
         
-        <div className='w-[25%] flex flex-col gap-3 tablets:max-desktop:w-[25%] mobile:w-full  '>
+        <div className='w-[25%] relative bottom-10 flex flex-col gap-3 tablets:max-desktop:w-[25%] mobile:max-tablets:w-full  '>
             <img className='w-32' src="/src/images/logo.png" alt="logo" />
             <h1 className='text-xl font-bold'>Contact</h1>
 
@@ -17,7 +17,7 @@ const Footer = () => {
 
 
 
-            <div className='w-[100%] flex flex-col gap-3 relative tablets:max-desktop:top-5 mobile:top-5 '>
+            <div className='w-[100%] flex flex-col gap-3 relative tablets:max-desktop:top-5 mobile:max-tablets:top-5 '>
                 <h1 className='text-xl font-bold tablets:max-desktop:text-lg '>Follow Us</h1>
                 
                 <div className='flex gap-3 text-2xl'>
@@ -33,9 +33,9 @@ const Footer = () => {
 
         </div>
 
-        <div className='mobile:flex mobile:w-[100%] mobile:h-full mobile:justify-between   '>
+        <div className='flex items-start justify-between w-[25%]  tablets:max-desktop:w-[60%] tablets:max-desktop:items-start mobile:max-tablets:flex mobile:max-tablets:w-[100%] mobile:max-tablets:h-full mobile:max-tablets:justify-between   '>
 
-        <div className='w-[25%] flex flex-col gap-3 tablets:max-desktop:w-[25%] relative tablets:max-desktop:bottom-[7vh] mobile:w-36  '>
+        <div className='w-[25%] flex flex-col gap-3 tablets:max-desktop:w-[25%] relative  mobile:max-tablets:w-36  '>
             <h1 className='text-xl font-bold'>About</h1>
             
             <div className='text-lg  ' >
@@ -48,7 +48,7 @@ const Footer = () => {
 
         </div>
 
-        <div className='w-[25%] flex flex-col gap-3 tablets:max-desktop:w-[25%] relative tablets:max-desktop:bottom-[8vh] mobile:w-36  '>
+        <div className='w-[25%] flex flex-col gap-3 tablets:max-desktop:w-[25%] relative  mobile:max-tablets:w-36  '>
             <h1 className='text-xl font-bold'>My Account</h1>
             <div>
             <p className='hover:text-[#088178] cursor-pointer  transition-all duration-300'>Sign In</p>
@@ -64,7 +64,7 @@ const Footer = () => {
 
         </div>
 
-        <div className='w-[25%] flex flex-col gap-3  tablets:max-desktop:w-[100%] mobile:w-full '>
+        <div className='w-[25%] flex flex-col gap-3  tablets:max-desktop:w-[100%] mobile:max-tablets:w-full '>
             <h1 className='text-xl font-bold'>Install App</h1>
             <p>From App Store or Google Play</p>
 
@@ -79,9 +79,9 @@ const Footer = () => {
         </div>
 
         <div className='absolute left-1/2 bottom-1 transform -translate-x-1/2 transform-translate-y-1/2 '>
-            <p className=' tablets:max-desktop:text-sm tablets:max-desktop:relative tablets:max-desktop:top-14 tablets:max-desktop:left-[2%] mobile:text-sm mobile:relative mobile:top-14 mobile:left-[0.2%]  mobile:w-96 mobile:py-5 mobile:text-center '>
+            <p className=' tablets:max-desktop:text-sm tablets:max-desktop:relative tablets:max-desktop:top-14 tablets:max-desktop:left-[2%] mobile:max-tablets:text-sm mobile:max-tablets:relative mobile:max-tablets:top-14 mobile:max-tablets:left-[0.2%]  mobile:max-tablets:w-96 mobile:max-tablets:py-5 mobile:max-tablets:text-center '>
                 
-                 <span className='relative bottom-6 mobile:bottom-0 '>Conditions of Use & Sale Privacy Notice Interest-Based Ads</span> <br /> <span className='font-bold absolute bottom-1 right-[11.3%] transform-translate-x-1/2 transform-translate-y-1/2 mobile:w-96 mobile:left-1 '>© 1996-2024, Cara.com, Inc. or its affiliates</span> </p>
+                 <span className='relative bottom-6 mobile:max-tablets:bottom-0 '>Conditions of Use & Sale Privacy Notice Interest-Based Ads</span> <br /> <span className='font-bold absolute bottom-1 right-[11.3%] transform-translate-x-1/2 transform-translate-y-1/2 mobile:max-tablets:w-96 mobile:max-tablets:left-1 '>© 1996-2024, Cara.com, Inc. or its affiliates</span> </p>
         </div>
 
 

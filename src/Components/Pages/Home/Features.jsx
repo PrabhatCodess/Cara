@@ -10,7 +10,7 @@ import f6 from '/src/images/features/f6.png';
 
 const Features = () => {
   return (
-    <div className='px-28 py-20 flex items-center justify-between  tablets:max-desktop:px-20 tablets:max-desktop:flex-wrap tablets:max-desktop:gap-10 tablets:max-desktop:justify-center tablets:max-desktop:py-10 mobile:px-10 mobile py-1 mobile:flex-wrap mobile:justify-center mobile:gap-10  '>
+    <div className='px-28 py-20 flex items-center justify-between  tablets:max-desktop:px-20 tablets:max-desktop:flex-wrap tablets:max-desktop:gap-10 tablets:max-desktop:justify-center tablets:max-desktop:py-10 mobile:max-tablets:px-10 mobile:max-tablets py-1 mobile:max-tablets:flex-wrap mobile:max-tablets:justify-center mobile:max-tablets:gap-10  '>
 
 
         <div className='py-5 w-48 h-64 border-2  flex flex-col gap-5  items-center justify-center border-[#cce7d0] rounded-xl shadow-xl hover:shadow-2xl transition-shadow duration-300'>
