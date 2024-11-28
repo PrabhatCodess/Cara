@@ -15,7 +15,7 @@ const Scrollbar = () => {
     const clientHeight = document.documentElement.clientHeight;
     const scrolled = window.scrollY;
 
-    const barHeight = barRef.current?.offsetHeight || 0;  // Get the total available height for the scrollbar
+    const barHeight = barRef.current?.offsetHeight || 0; // Get the total available height for the scrollbar
     const calculatedThumbHeight = Math.max(
       (clientHeight / scrollHeight) * barHeight, // Dynamic thumb height based on the scrollable area
       50 // Ensure thumb height does not become too small (you can adjust the minimum height)
@@ -25,11 +25,14 @@ const Scrollbar = () => {
 
     setThumbHeight(calculatedThumbHeight);
     setThumbPosition(calculatedThumbPosition);
+
+    // Safeguard: Remove any console.log calls from debugging
+    // console.log('Scrollbar updated:', { calculatedThumbHeight, calculatedThumbPosition });
   };
 
   const handleScroll = () => {
-    setIsVisible(true);  // Show scrollbar when scrolling
-    updateScrollbar();  // Update thumb position
+    setIsVisible(true); // Show scrollbar when scrolling
+    updateScrollbar(); // Update thumb position
 
     // Hide after 1 second if the user stops scrolling
     if (hideTimeout.current) clearTimeout(hideTimeout.current);
@@ -37,8 +40,8 @@ const Scrollbar = () => {
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);  // Listen for scroll events
-    window.addEventListener('resize', updateScrollbar);  // Listen for resize events to adjust scrollbar size
+    window.addEventListener('scroll', handleScroll); // Listen for scroll events
+    window.addEventListener('resize', updateScrollbar); // Listen for resize events to adjust scrollbar size
 
     // Initial update
     updateScrollbar();
@@ -64,13 +67,12 @@ const Scrollbar = () => {
         className="c-scrollbar_thumb"
         ref={thumbRef}
         style={{
-          height: `${thumbHeight}px`,  // Set dynamic thumb height
-          transform: `translateY(${thumbPosition}px)`,  // Set dynamic thumb position
+          height: `${thumbHeight}px`, // Set dynamic thumb height
+          transform: `translateY(${thumbPosition}px)`, // Set dynamic thumb position
         }}
       ></div>
     </div>
   );
 };
-
 
 export default Scrollbar;
