@@ -11,21 +11,28 @@ import Contact from './Components/Pages/Contact/Contact';
 import Cart from './Components/Pages/Cart/Cart';
 
 const App = () => {
-  // Initialize Lenis
-  const lenis = new Lenis();
+// Initialize Lenis with options for smooth scrolling on all devices
+const lenis = new Lenis({
+  smooth: true,        // Enable smooth scrolling
+  direction: 'vertical', // Scrolling direction ('vertical' or 'horizontal')
+  gestureDirection: 'vertical', // Handle vertical gestures
+  smoothTouch: true,   // Enable smooth scrolling for touch devices
+  touchMultiplier: 2,  // Adjust sensitivity for touch devices (higher = faster)
+});
 
-  // Listen for the scroll event and log the event data
-  lenis.on('scroll', (e) => {
-    // console.log(e); on this to log the scroll event data
-  });
+// Listen for the scroll event (optional)
+lenis.on('scroll', (e) => {
+  console.log(e); // Log scroll event data
+});
 
-  // Use requestAnimationFrame to continuously update the scroll
-  function raf(time) {
-    lenis.raf(time);
-    requestAnimationFrame(raf);
-  }
-
+// Use requestAnimationFrame to continuously update the scroll
+function raf(time) {
+  lenis.raf(time);
   requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);
+
 
   return (
     <div>
