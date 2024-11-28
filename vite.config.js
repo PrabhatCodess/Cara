@@ -6,5 +6,5 @@ export default defineConfig({
     build: {
         outDir: 'dist',
     },
-    base: process.env.NODE_ENV === 'production' ? "/Cara" : "/", // Use different base for development
+    base: process.env.NODE_ENV === 'production' ? "/" : "/", // Use different base for development
 });
