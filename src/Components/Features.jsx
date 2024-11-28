@@ -1,10 +1,10 @@
 import React from 'react'
-import f1 from '/src/images/features/f1.png';
-import f2 from '/src/images/features/f2.png';
-import f3 from '/src/images/features/f3.png';
-import f4 from '/src/images/features/f4.png';
-import f5 from '/src/images/features/f5.png';
-import f6 from '/src/images/features/f6.png';
+import f1 from '/features/f1.png';
+import f2 from '/features/f2.png';
+import f3 from '/features/f3.png';
+import f4 from '/features/f4.png';
+import f5 from '/features/f5.png';
+import f6 from '/features/f6.png';
 
 
 
@@ -53,4 +53,4 @@ const Features = () => {
   )
 }
 
-export default Features 
+export default Features

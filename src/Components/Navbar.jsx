@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className='z-10 sticky top-0 left-0 w-full h-28 bg-[#E3E6F3] flex justify-between items-center px-28 py-20 shadow-2xl mobile:max-tablets:px-5 mobile:max-tablets:py-20 tablets:max-desktop:px-10 tablets:max-desktop:py-20'>
       <div className="nav-left flex items-center">
-        <img src="./src/images/logo.png" alt="" />
+        <img src="./logo.png" alt="Logo" />
       </div>
 
       <i className='mobile:max-tablets:flex tablets:max-desktop:flex items-center justify-between gap-1 w-14'>

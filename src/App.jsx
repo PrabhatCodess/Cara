@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './Components/Pages/Home/Navbar';
+import Navbar from './Components/Navbar';
 import Lenis from '@studio-freight/lenis';
 import Scrollbar from './Components/Scrollbar';
 import { Routes, Route } from 'react-router-dom';
+import Home from './Components/Home';
 import Shop from './Components/Pages/Shop/Shop';
-import Home from './Components/Pages/Home/Home';
 import Blog from './Components/Pages/Blog/Blog';
 import About from './Components/Pages/About/About';
 import Contact from './Components/Pages/Contact/Contact';

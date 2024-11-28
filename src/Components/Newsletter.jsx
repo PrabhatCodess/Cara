@@ -4,7 +4,7 @@ const Newsletter = () => {
   return (
     <div className='py-20'>
         
-        <div className="newsletter-container w-full h-[22vh] px-28 py-0 bg-[#041e42] flex items-center justify-between gap-10 bg-[url('/src/images/banner/b14.png')] bg-no-repeat bg-[20%_30%] tablets:max-desktop:px-20  tablets:max-desktop:bg-[20%_30%] tablets:max-desktop:flex-col tablets:max-desktop:items-start tablets:max-desktop:justify-center tablets:max-desktop:py-0  tablets:max-desktop:gap-5
+        <div className="newsletter-container w-full h-[22vh] px-28 py-0 bg-[#041e42] flex items-center justify-between gap-10 bg-[url('/Cara/public/banner/b14.png')] bg-no-repeat bg-[20%_30%] tablets:max-desktop:px-20  tablets:max-desktop:bg-[20%_30%] tablets:max-desktop:flex-col tablets:max-desktop:items-start tablets:max-desktop:justify-center tablets:max-desktop:py-0  tablets:max-desktop:gap-5
         mobile:max-tablets:px-5 mobile:max-tablets:bg-[20%_30%] mobile:max-tablets:flex-col mobile:max-tablets:items-start
         mobile:max-tablets:justify-center mobile:max-tablets:py-32 
         mobile:max-tablets:gap-5  ">
