@@ -16,7 +16,7 @@ const App = () => {
 
   // Listen for the scroll event and log the event data
   lenis.on('scroll', (e) => {
-    // console.log(e); on this to log the scroll event
+    // console.log(e); on this to log the scroll event data
   });
 
   // Use requestAnimationFrame to continuously update the scroll
