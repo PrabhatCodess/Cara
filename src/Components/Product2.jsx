@@ -18,10 +18,25 @@ const Product2 = () => {
         <p className='text-center text-lg text-[#00000073] font-bold'>Summer Collection New Modern Design</p> </>
           
 
-        <div className='product-container flex flex-wrap items-center justify-between px-10 py-10 gap-16  cursor-pointer tablets:max-desktop:w-[100%] tablets:max-desktop:relative tablets:max-desktop:right-20 tablets:max-desktop:py-5 tablets:max-desktop:gap-10 tablets:max-desktop:px-10 tablets:max-desktop:justify-center tablets:max-desktop:items-center '>
+        <div className='product-container flex flex-wrap items-center justify-between px-10 py-10 gap-16  cursor-pointer 
+
+        mobile:max-tablets:w-[100%]
+        mobile:max-tablets:relative
+        mobile:max-tablets:right-0
+        mobile:max-tablets:py-2
+        mobile:max-tablets:gap-5
+        mobile:max-tablets:px-1
+        mobile:max-tablets:justify-center
+        mobile:max-tablets:items-center
+
+        
+        
+        tablets:max-desktop:w-[100%] tablets:max-desktop:relative tablets:max-desktop:right-20 tablets:max-desktop:py-5 tablets:max-desktop:gap-10 tablets:max-desktop:px-10 tablets:max-desktop:justify-center tablets:max-desktop:items-center '>
 
 
-        <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
+        <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300
+        mobile:max-tablets:py-1
+         tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
           <img className='w-96 h-96 rounded-2xl' src={n1} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
           <h1 className='text-2xl font-bold text-[#088178]'>Cartoon Astronaut T-Shirts</h1>
@@ -40,7 +55,9 @@ const Product2 = () => {
         </div>
 
 
-        <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
+        <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300
+        mobile:max-tablets:py-1
+        tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
           <img className='w-96 h-96 rounded-2xl' src={n2} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
           <h1 className='text-2xl font-bold text-[#088178]'>Cartoon Astronaut T-Shirts</h1>
@@ -59,7 +76,9 @@ const Product2 = () => {
         </div>
 
 
-        <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
+        <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300
+        mobile:max-tablets:py-1
+        tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
           <img className='w-96 h-96 rounded-2xl' src={n3} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
           <h1 className='text-2xl font-bold text-[#088178]'>Cartoon Astronaut T-Shirts</h1>
@@ -78,7 +97,9 @@ const Product2 = () => {
         </div>
 
 
-        <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
+        <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300
+        mobile:max-tablets:py-1
+        tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
           <img className='w-96 h-96 rounded-2xl' src={n4} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
           <h1 className='text-2xl font-bold text-[#088178]'>Cartoon Astronaut T-Shirts</h1>
@@ -98,7 +119,9 @@ const Product2 = () => {
            </div>
 
 
-           <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
+           <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300
+        mobile:max-tablets:py-1
+        tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
           <img className='w-96 h-96 rounded-2xl' src={n5} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
           <h1 className='text-2xl font-bold text-[#088178]'>Cartoon Astronaut T-Shirts</h1>
@@ -119,7 +142,9 @@ const Product2 = () => {
 
 
 
-           <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
+           <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300
+        mobile:max-tablets:py-1
+        tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
           <img className='w-96 h-96 rounded-2xl' src={n6} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
           <h1 className='text-2xl font-bold text-[#088178]'>Cartoon Astronaut T-Shirts</h1>
@@ -140,7 +165,9 @@ const Product2 = () => {
 
 
 
-           <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
+           <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300
+        mobile:max-tablets:py-1
+        tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
           <img className='w-96 h-96 rounded-2xl' src={n7} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
           <h1 className='text-2xl font-bold text-[#088178]'>Cartoon Astronaut T-Shirts</h1>
@@ -162,7 +189,9 @@ const Product2 = () => {
 
 
 
-           <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
+           <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300
+        mobile:max-tablets:py-1
+        tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
           <img className='w-96 h-96 rounded-2xl' src={n8} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
           <h1 className='text-2xl font-bold text-[#088178]'>Cartoon Astronaut T-Shirts</h1>

@@ -13,6 +13,7 @@ import Banner3 from './Banner3'
 const Home = () => {
   return (
     <div>
+      <Navbar />
       <Hero />
       <Features />
       <Product />

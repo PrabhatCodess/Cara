@@ -28,7 +28,8 @@ const Navbar = () => {
 
         <i className="close hidden tablets:max-desktop:flex mobile:max-tablets:flex fa-solid fa-xmark" onClick={() => setIsNavOpen(false)}></i>
 
-        <NavLink to="/" className='hover:text-[#088178] transition-colors tablets:max-desktop:after:top-[7.6%] tablets:max-desktop:after:left-10 mobile:max-tablets:after:top-[11.1%] mobile:max-tablets:after:left-10'>Home</NavLink>
+        <NavLink to="/" className='after:content-[" "] after:w-[28px] after:h-[3px] after:bg-[#088178] after:absolute after:left-[0%] after:bottom-[0px] 
+         hover:text-[#088178] transition-colors tablets:max-desktop:after:top-[7.6%] tablets:max-desktop:after:left-10 mobile:max-tablets:after:top-[11.1%] mobile:max-tablets:after:left-10'>Home</NavLink>
 
         <NavLink to="/shop" className='hover:text-[#088178] transition-colors tablets:max-desktop:after:top-[11.3%] tablets:max-desktop:after:left-10 mobile:max-tablets:after:top-[16.3%] mobile:max-tablets:after:left-10'>Shop</NavLink>
 

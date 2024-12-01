@@ -9,6 +9,7 @@ import Blog from './Components/Pages/Blog/Blog';
 import About from './Components/Pages/About/About';
 import Contact from './Components/Pages/Contact/Contact';
 import Cart from './Components/Pages/Cart/Cart';
+import Product_details from './Components/Pages/Shop/Product_details';
 
 const App = () => {
 // Initialize Lenis with options for smooth scrolling on all devices
@@ -22,7 +23,7 @@ const lenis = new Lenis({
 
 // Listen for the scroll event (optional)
 lenis.on('scroll', (e) => {
-  console.log(e); // Log scroll event data
+  // console.log(e); // Log scroll event data
 });
 
 // Use requestAnimationFrame to continuously update the scroll
@@ -36,7 +37,6 @@ requestAnimationFrame(raf);
 
   return (
     <div>
-      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
@@ -44,6 +44,7 @@ requestAnimationFrame(raf);
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<Cart />} /> {/* Corrected path */}
+        <Route path="/product_details" element={<Product_details />} /> {/* Corrected path */}
       </Routes>
       <Scrollbar />
     </div>
