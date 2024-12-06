@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import Newsletter from '../../Newsletter'
 import Footer from '../../Footer'
-import logoSVG from '../../../../public/Green Luxury Elegant Fashion transparent Logo.svg'
+import logoSVG from '/Green Luxury Elegant Fashion transparent Logo.svg'
 
 
 const blog = () => {
