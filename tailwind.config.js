@@ -6,6 +6,16 @@ export default {
   ],
   theme: {
       screens: {
+        'responsive': '320px',
+        'iphoneSE': '375px',
+        'iphoneXR': '428px',
+        'iphone12': '480px',
+        'iphone12Pro': '540px',
+        'iphone12ProMax': '672px',
+        'iphone13': '684px',
+        'iphone13Pro': '750px',
+        'iphone13ProMax': '812px',
+
       'mobile': '320px',
       // => @media (min-width: 320px) { ... }
 

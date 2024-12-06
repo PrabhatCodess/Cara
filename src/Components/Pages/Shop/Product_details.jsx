@@ -57,7 +57,7 @@ const Product_details = () => {
         </div>
 
 
-       <div className="display_info w-[60%] h-[70vh] px-5 py-10 flex flex-col justify-between 
+       <div className="display_info w-[60%] h-[70vh] px-5 py-10 flex flex-col gap-10 justify-between 
        mobile:max-tablets:w-full mobile:max-tablets:px-0 mobile:max-tablets:py-10 mobile:max-tablets:gap-5  ">
         <h5 className='text-lg font-semibold'>Home / T-shirts</h5>
         <h1 className='text-2xl font-bold relative top-1'>Men's fashion t-shirt</h1>
@@ -94,7 +94,7 @@ const Product_details = () => {
 
       </div>
 
-      <div className='mt-60 tablets:max-desktop:mt-0 mobile:max-tablets:mt-[110%] '>
+      <div className='mt-60 tablets:max-desktop:relative tablets:max-desktop:bottom-72 mobile:max-tablets:relative mobile:max-tablets:top-72   '>
       <Product2 />
       </div>
        

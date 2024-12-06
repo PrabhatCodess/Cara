@@ -12,13 +12,17 @@ import { Link } from 'react-router-dom'
 
 const Product = () => {
   return (  
-    <div className='w-full h-auto'>
+    <div className='w-full h-auto iphoneSE:max-iphoneXR:px-5 '>
        <>  <h1 className='text-4xl font-bold text-center mt-10'>Featured Products</h1>
         <p className='text-center text-lg text-[#00000073] font-bold'>Summer Collection New Modern Design</p> </>
           
 
         <div className='product-container w-[100%]  flex flex-wrap items-center justify-between px-12 py-10 gap-16  cursor-pointer
-
+        iphoneSE:max-iphoneXR:mt-5
+        iphoneSE:max-iphoneXR:w-full
+        iphoneSE:max-iphoneXR:p-0
+        iphoneSE:max-iphoneXR:gap-10
+        
         mobile:max-tablets:w-[100%]
         mobile:max-tablets:relative
         mobile:max-tablets:right-0
@@ -27,15 +31,23 @@ const Product = () => {
         mobile:max-tablets:px-1
         mobile:max-tablets:justify-center
         mobile:max-tablets:items-center
+
         tablets:max-desktop:w-[100%] tablets:max-desktop:relative tablets:max-desktop:right-20 tablets:max-desktop:py-5 tablets:max-desktop:gap-10 tablets:max-desktop:px-10 tablets:max-desktop:justify-center tablets:max-desktop:items-center '>
 
                
         <Link to='/product_details'>
-          <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 
+          <div className='px-5 py-10 rounded-xl w-96 h-[65vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 
+
+          iphoneSE:max-iphoneXR:h-[70vh]
+          iphoneSE:max-iphoneXR:w-full
+          iphoneSE:max-iphoneXR:px-5
+          iphoneSE:max-iphoneXR:py-5
+          iphoneSE:max-iphoneXR:gap-2
+
           mobile:max-tablets:py-1
           tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20 '>
           <img className='w-96 h-96 rounded-2xl' src={p1} alt="" />
-          <h5 className='font-bold text-[#00000086]'>adidas</h5>
+          <h5 className='font-bold text-[#00000086]  iphoneSE:mt-1'>adidas</h5>
           <h1 className='text-2xl font-bold text-[#088178] mobile:max-tablets:text-xl'>Cartoon Astronaut T-Shirts</h1>
           <i className='text-[#ffa500]'><i className="fa-solid fa-star"></i> 
           <i className="fa-solid fa-star"></i>
@@ -55,7 +67,15 @@ const Product = () => {
 
 
         <Link to='/product_details'>  
-        <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 
+        <div className='px-5 py-10 rounded-xl w-96 h-[65vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 
+
+       iphoneSE:max-iphoneXR:h-[70vh]
+          iphoneSE:max-iphoneXR:w-full
+          iphoneSE:max-iphoneXR:px-5
+          iphoneSE:max-iphoneXR:py-5
+          iphoneSE:max-iphoneXR:gap-2
+
+
         mobile:max-tablets:py-1
         tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20  '>
           <img className='w-96 h-96 rounded-2xl' src={p2} alt="" />
@@ -78,7 +98,15 @@ const Product = () => {
 
          
          <Link to='/product_details'>
-        <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 
+        <div className='px-5 py-10 rounded-xl w-96 h-[65vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 
+
+         iphoneSE:max-iphoneXR:h-[70vh]
+          iphoneSE:max-iphoneXR:w-full
+          iphoneSE:max-iphoneXR:px-5
+          iphoneSE:max-iphoneXR:py-5
+          iphoneSE:max-iphoneXR:gap-2
+
+
         mobile:max-tablets:py-1
         tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20  '>
           <img className='w-96 h-96 rounded-2xl' src={p3} alt="" />
@@ -102,7 +130,16 @@ const Product = () => {
 
          
          <Link to='/product_details'>
-        <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 
+        <div className='px-5 py-10 rounded-xl w-96 h-[65vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 
+
+        iphoneSE:max-iphoneXR:h-[70vh]
+          iphoneSE:max-iphoneXR:w-full
+          iphoneSE:max-iphoneXR:px-5
+          iphoneSE:max-iphoneXR:py-5
+          iphoneSE:max-iphoneXR:gap-2
+
+
+
         mobile:max-tablets:py-1
         tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20  '>
           <img className='w-96 h-96 rounded-2xl' src={p4} alt="" />
@@ -125,7 +162,15 @@ const Product = () => {
          </Link>
 
            <Link to='/product_details'>
-              <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 
+              <div className='px-5 py-10 rounded-xl w-96 h-[65vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 
+
+             iphoneSE:max-iphoneXR:h-[70vh]
+          iphoneSE:max-iphoneXR:w-full
+          iphoneSE:max-iphoneXR:px-5
+          iphoneSE:max-iphoneXR:py-5
+          iphoneSE:max-iphoneXR:gap-2
+
+              
               mobile:max-tablets:py-1
               tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20  '>
               <img className='w-96 h-96 rounded-2xl' src={p5} alt="" />
@@ -150,7 +195,14 @@ const Product = () => {
 
 
            <Link to='/product_details'>
-           <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 
+            <div className='px-5 py-10 rounded-xl w-96 h-[65vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 
+
+            iphoneSE:max-iphoneXR:h-[70vh]
+          iphoneSE:max-iphoneXR:w-full
+          iphoneSE:max-iphoneXR:px-5
+          iphoneSE:max-iphoneXR:py-5
+          iphoneSE:max-iphoneXR:gap-2
+
            mobile:max-tablets:py-1
            tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20  '>
           <img className='w-96 h-96 rounded-2xl' src={p6} alt="" />
@@ -174,9 +226,14 @@ const Product = () => {
 
 
            <Link to='/product_details'>
-           <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 
-           mobile:max-tablets:py-1
-           tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20  '>
+           <div className='px-5 py-10 rounded-xl w-96 h-[65vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 
+          iphoneSE:max-iphoneXR:h-[70vh]
+          iphoneSE:max-iphoneXR:w-full
+          iphoneSE:max-iphoneXR:px-5
+          iphoneSE:max-iphoneXR:py-5
+          iphoneSE:max-iphoneXR:gap-2
+          mobile:max-tablets:py-1
+          tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20  '>
           <img className='w-96 h-96 rounded-2xl' src={p7} alt="" />
           <h5 className='font-bold text-[#00000086]'>adidas</h5>
           <h1 className='text-2xl font-bold text-[#088178] mobile:max-tablets:text-xl'>Cartoon Astronaut T-Shirts</h1>
@@ -193,13 +250,23 @@ const Product = () => {
           </div>
 
           
-           </div>
-           </Link>
+          </div>
+          </Link>
 
 
 
            <Link to='/product_details'>
-           <div className='px-5 py-10 rounded-xl w-96 h-[60vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 
+           <div className='px-5 py-10 rounded-xl w-96 h-[65vh] flex flex-col gap-3 border-2 border-[#0000003d] hover:shadow-2xl transition-shadow duration-300 
+
+        iphoneSE:max-iphoneXR:h-[70vh]
+          iphoneSE:max-iphoneXR:w-full
+          iphoneSE:max-iphoneXR:px-5
+          iphoneSE:max-iphoneXR:py-5
+          iphoneSE:max-iphoneXR:gap-2
+
+
+
+
            mobile:max-tablets:py-1
            tablets:max-desktop:w-80 tablets:max-desktop:h-[55vh] tablets:max-desktop:relative tablets:max-desktop:left-20  '>
           <img className='w-96 h-96 rounded-2xl' src={p8} alt="" />
