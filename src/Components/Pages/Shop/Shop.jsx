@@ -6,6 +6,8 @@ import Footer from '../../Footer'
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import Product_details from './Product_details'
+import logoSVG from '../../../../public/Green Luxury Elegant Fashion transparent Logo.svg'
+
 
 const Shop = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
@@ -15,7 +17,7 @@ const Shop = () => {
 
       <div className='NavBar z-10 sticky top-0 left-0 w-full h-28 bg-[#E3E6F3] flex justify-between items-center px-28 py-20 shadow-2xl mobile:max-tablets:px-5 mobile:max-tablets:py-20 tablets:max-desktop:px-10 tablets:max-desktop:py-20'>
       <div className="nav-left flex items-center">
-        <img src="./logo.png" alt="Logo" />
+        <img className='w-48' src={logoSVG} alt="Logo" />
       </div>
 
       <i className='mobile:max-tablets:flex tablets:max-desktop:flex items-center justify-between gap-1 w-14'>

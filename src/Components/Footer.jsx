@@ -1,4 +1,6 @@
 import React from 'react'
+import logoSVG from '../../public/Green Luxury Elegant Fashion transparent Logo.svg'
+
 
 const Footer = () => {
   return (
