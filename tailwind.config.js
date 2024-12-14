@@ -28,7 +28,17 @@ export default {
       'desktop': '1280px',
       // => @media (min-width: 1280px) { ... }
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        move: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' }
+        }
+      },
+      animation: {
+        'move': 'move 20s linear infinite'
+      }
+    },
     fontFamily:{
       'spartan':['League Spartan', 'sans-serif']
     }

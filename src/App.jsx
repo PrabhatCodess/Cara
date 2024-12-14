@@ -10,6 +10,7 @@ import About from './Components/Pages/About/About';
 import Contact from './Components/Pages/Contact/Contact';
 import Cart from './Components/Pages/Cart/Cart';
 import Product_details from './Components/Pages/Shop/Product_details';
+import Hero_video from './Components/Hero_video';
 
 const App = () => {
 // Initialize Lenis with options for smooth scrolling on all devices
@@ -45,6 +46,7 @@ requestAnimationFrame(raf);
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<Cart />} /> {/* Corrected path */}
         <Route path="/product_details" element={<Product_details />} /> {/* Corrected path */}
+        <Route path="/hero_video" element={<Hero_video />} /> {/* Corrected path */}
       </Routes>
       <Scrollbar />
     </div>

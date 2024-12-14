@@ -9,12 +9,13 @@ import Product2 from './Product2'
 import Navbar from './Navbar'
 import Banner2 from './Banner2'
 import Banner3 from './Banner3'
-
+import Hero_video from './Hero_video'
 const Home = () => {
   return (
     <div>
       <Navbar />
       <Hero />
+      <Hero_video />
       <Features />
       <Product />
       <Banner />
