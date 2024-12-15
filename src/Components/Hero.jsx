@@ -19,9 +19,9 @@ const Hero = () => {
         <button className='w-64 h-14 text-lg relative text-[#088178] font-bold  bg-[url("/button.png")] bg-no-repeat bg-cover rounded-full px-26 py-4 mt-5 mobile:max-tablets:right-7 '>Buy Now</button>
 
         
-      <div className='movingDiv w-[75%] h-20 absolute bottom-20 flex overflow-hidden left-[10%] translate-x-[4%]  '>
+      <div className='movingDiv w-[75%] responsive:max-desktop:w-[95%] responsive:max-desktop:left-[-1%]  h-20 absolute bottom-20 flex overflow-hidden left-[10%] translate-x-[4%]  '>
     
-       <div className="move z-[-9]  h-full w-full flex items-center justify-between gap-5 animate-move ">
+       <div className="move z-[-9] responsive:max-desktop:w-auto h-full w-full flex items-center justify-between gap-5 animate-move ">
         
         <img className='w-28' src={Brand1} alt="" />
         <img className='w-28' src={Brand2} alt="" />

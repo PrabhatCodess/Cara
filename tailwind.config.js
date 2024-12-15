@@ -36,7 +36,8 @@ export default {
         }
       },
       animation: {
-        'move': 'move 20s linear infinite'
+        'move': 'move 20s linear infinite',
+        'move-mobile': 'move 10s linear infinite',
       }
     },
     fontFamily:{
