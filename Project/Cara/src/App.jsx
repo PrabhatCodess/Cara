@@ -1,8 +1,8 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react'
 import Navbar from './Components/Navbar';
 import Lenis from '@studio-freight/lenis';
 import Scrollbar from './Components/Scrollbar';
-import { Routes, Route } from 'react-router-dom';
 import Home from './Components/Home';
 import Shop from './Components/Pages/Shop/Shop';
 import Blog from './Components/Pages/Blog/Blog';
@@ -37,19 +37,19 @@ requestAnimationFrame(raf);
 
 
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/cart" element={<Cart />} /> {/* Corrected path */}
-        <Route path="/product_details" element={<Product_details />} /> {/* Corrected path */}
-        <Route path="/hero_video" element={<Hero_video />} /> {/* Corrected path */}
-      </Routes>
-      <Scrollbar />
-    </div>
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/product_details" element={<Product_details />} />
+          <Route path="/hero_video" element={<Hero_video />} />
+        </Routes>
+        <Scrollbar />
+      </div>
   )
 }
 
