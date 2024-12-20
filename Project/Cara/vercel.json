@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/Cara/(.*)", "destination": "/$1" }
+  ]
+}
