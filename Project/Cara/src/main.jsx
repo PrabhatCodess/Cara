@@ -5,9 +5,7 @@ import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <BrowserRouter basename="/Cara/">
-      <App />
-    </BrowserRouter>
-  </StrictMode>,
+  <BrowserRouter basename="/Cara"> {/* Make sure the basename is correctly set */}
+    <App />
+  </BrowserRouter>,
 )

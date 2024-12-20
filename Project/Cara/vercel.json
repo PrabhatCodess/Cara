@@ -1,5 +1,9 @@
 {
-  "rewrites": [
-    { "source": "/Cara/(.*)", "destination": "/$1" }
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/Cara/",
+      "permanent": true
+    }
   ]
 }
