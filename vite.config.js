@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Cara/', // Replace <REPO_NAME> with your GitHub repository name
+  base: '/', // Replace <REPO_NAME> with your GitHub repository name
   
   build: {
     rollupOptions: {
