@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react'
-import Navbar from './Components/Navbar';
 import Lenis from '@studio-freight/lenis';
 import Scrollbar from './Components/Scrollbar';
 import Home from './Components/Home';
