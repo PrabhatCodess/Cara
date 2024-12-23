@@ -1,10 +1,9 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import { defineConfig } from 'vite';
+import dotenv from 'dotenv';
 
-const base = process.env.VITE_BASENAME || "/";
+// Load environment variables from .env file
+dotenv.config();
 
-export default {
-  base: '/',
-};
-
-
+export default defineConfig({
+  base: process.env.VITE_APP_ENV === 'production' ? '/Cara/' : '/',
+});
