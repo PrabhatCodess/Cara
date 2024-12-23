@@ -3,7 +3,8 @@ import react from "@vitejs/plugin-react";
 
 const base = process.env.VITE_BASENAME || "/";
 
-export default defineConfig({
-  plugins: [react()],
-  base: base,
-});
+export default {
+  base: process.env.VERCEL ? '/' : '/Cara/', // Check if running on Vercel, otherwise use '/Cara/' for GitHub Pages
+};
+
+
