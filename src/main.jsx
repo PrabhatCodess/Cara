@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom/client'
 import { createRoot } from 'react-dom/client';
 
 
-const basename = process.env.VERCEL ? '/' : '/Cara/';
+const basename = import.meta.env.VITE_VERCEL ? '/' : '/Cara/';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
