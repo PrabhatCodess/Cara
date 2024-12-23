@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import React from 'react'
 import Lenis from '@studio-freight/lenis';
 import Scrollbar from './Components/Scrollbar';
@@ -31,6 +31,7 @@ function raf(time) {
   lenis.raf(time);
   requestAnimationFrame(raf);
 }
+
 
 requestAnimationFrame(raf);
 

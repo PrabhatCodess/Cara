@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import logoSVG from '/Green Luxury Elegant Fashion transparent Logo.svg'
+import logoSVG from '../../public/Green Luxury Elegant Fashion transparent Logo.svg'
 
 const Navbar = () => { 
   const [isNavOpen, setIsNavOpen] = useState(false)

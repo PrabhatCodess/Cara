@@ -1,5 +1,9 @@
 import React from 'react'
-import logoSVG from '../../public/Green Luxury Elegant Fashion transparent Logo.svg'
+import footerLogo from '../../public/logo.png'
+import appStore from '../../public/pay/app.jpg'
+import playStore from '../../public/pay/play.jpg'
+import paymentsLogo from '../../public/pay/pay.png'
+
 
 
 const Footer = () => {
@@ -7,7 +11,7 @@ const Footer = () => {
     <div className='w-full h-auto  px-28 py-20 flex items-start justify-between flex-wrap relative tablets:max-desktop:mb-96 tablets:max-desktop:px-10 tablets:max-desktop:py-10 tablets:max-desktop:flex-wrap tablets:max-desktop:gap-10 mobile:max-tablets:mb-20 mobile:max-tablets:px-5 mobile:max-tablets:py-10 mobile:max-tablets:flex-wrap mobile:max-tablets:gap-10 mobile:max-tablets:flex-col  '>
         
         <div className='w-[25%] relative bottom-10 flex flex-col gap-3 tablets:max-desktop:w-[25%] mobile:max-tablets:w-full  '>
-            <img className='w-32' src="./logo.png" alt="logo" />
+            <img className='w-32' src={footerLogo} alt="logo" />
             <h1 className='text-xl font-bold'>Contact</h1>
 
 
@@ -69,13 +73,13 @@ const Footer = () => {
             <p>From App Store or Google Play</p>
 
             <div className='flex gap-3'>
-                <img src="./pay/app.jpg" alt="app-store" />
-                <img src="./pay/play.jpg" alt="play-store" />
+                <img src={appStore} alt="app-store" />
+                <img src={playStore} alt="play-store" />
             </div>
 
 
             <p>Secured Payment Gateways</p>
-            <img className='w-60' src="./pay/pay.png" alt="pay" />
+            <img className='w-60' src={paymentsLogo} alt="pay" />
         </div>
 
 
