@@ -145,17 +145,17 @@ const Preloader = () => {
     
 
     return (
-        <div className='m-0 p-0  box-border w-[100vw] h-[100vh] font-Aeonik-Bold '>
-            <div className="website-content absolute w-full h-full top-0 left-0 flex justify-center items-center">
+        <div className='m-0 p-0  box-border w-[100vw] h-[100vh] font-Aeonik-Bold fixed z-50 '>
+            <div className="website-content absolute w-full h-full bg-white top-0 left-0 flex justify-center items-center">
                 <div className="header relative w-max h-max  ">
                     <div className="h1 flex">
                      <img src={logoSVG} alt="" />
                     </div>
-                    <div className="header-revealer absolute top-0 w-full h-full after:content-[''] after:absolute after:left-0 after:w-[105%] after:h-[110%]  after:top-[80px]"></div>
+                    <div className="header-revealer absolute top-0 w-full h-full after:content-[''] after:absolute after:left-0 after:w-[105%] after:h-[110%] after:top-[80px]"></div>
                 </div>
             </div>
 
-            <div className="loading-screen fixed top-0 left-0 w-full h-full bg-black text-white pointer-events-none "> 
+            <div className="loading-screen fixed top-0 left-0 w-full h-full bg-black text-white pointer-events-none z-50 "> 
                 <div className="loader absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 w-[300px] h-[50px] flex bg-[rgb(80,80,80)]">
                     <div className="loader-1 bar relative bg-white w-[200px] h-[50px]"></div>
                     <div className="loader-2 bar relative w-[100px] bg-white h-[50px]"></div>

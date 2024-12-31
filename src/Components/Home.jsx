@@ -15,29 +15,29 @@ import Hero_video from './Hero_video';
 import Preloader from './Preloader';
 
 const Home = () => {
-    const { isPreloaderVisible, setPreloaderVisible } = usePreloader();
+    // const { isPreloaderVisible, setPreloaderVisible } = usePreloader();
 
-    useEffect(() => {
-        if (isPreloaderVisible) {
-            const preloaderAnimation = gsap.to('.loading-screen', {
-                opacity: 0,
-                duration: 0.5,
-                delay: 8.5, // Adjust this delay as needed
-                ease: 'power1.inOut',
-                onComplete: () => {
-                    setPreloaderVisible(false); // Hide preloader after animation
-                },
-            });
+    // useEffect(() => {
+    //     if (isPreloaderVisible) {
+    //         const preloaderAnimation = gsap.to('.loading-screen', {
+    //             opacity: 0,
+    //             duration: 0.5,
+    //             delay: 8.5, // Adjust this delay as needed
+    //             ease: 'power1.inOut',
+    //             onComplete: () => {
+    //                 setPreloaderVisible(false); // Hide preloader after animation
+    //             },
+    //         });
 
-            return () => {
-                preloaderAnimation.kill(); // Cleanup animation
-            };
-        }
-    }, [isPreloaderVisible, setPreloaderVisible]);
+    //         return () => {
+    //             preloaderAnimation.kill(); // Cleanup animation
+    //         };
+    //     }
+    // }, [isPreloaderVisible, setPreloaderVisible]);
 
     return (
         <div>
-            {isPreloaderVisible && <Preloader />}
+            {/* {isPreloaderVisible && <Preloader />} */}
             <Navbar />
             <Hero />
             <Hero_video />

@@ -11,6 +11,7 @@ import Cart from './Components/Pages/Cart/Cart';
 import Product_details from './Components/Pages/Shop/Product_details';
 import Hero_video from './Components/Hero_video';
 import Preloader from './Components/Preloader';
+import { useState, useEffect } from 'react';
 
 const App = () => {
 // Initialize Lenis with options for smooth scrolling on all devices
@@ -36,8 +37,20 @@ function raf(time) {
 
 requestAnimationFrame(raf);
 
+const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate page loading, you can replace this with actual data fetching
+    const timer = setTimeout(() => {
+      setLoading(false); // Hide preloader after 3 seconds (or based on your needs)
+    }, 10000); // Adjust time as needed
+
+    return () => clearTimeout(timer); // Cleanup timeout on component unmount
+  }, []);
+
   return (
       <div>
+         {loading && <Preloader />} {/* Show Preloader if loading is true */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
