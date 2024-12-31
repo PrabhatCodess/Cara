@@ -41,7 +41,8 @@ export default {
       }
     },
     fontFamily:{
-      'spartan':['League Spartan', 'sans-serif']
+      'spartan':['League Spartan', 'sans-serif'],
+      'Aeonik-Bold':['Aeonik TRIAL',],
     }
   },
   plugins: [],

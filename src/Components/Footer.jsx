@@ -1,8 +1,8 @@
 import React from 'react'
-import footerLogo from '../../public/logo.png'
-import appStore from '../../public/pay/app.jpg'
-import playStore from '../../public/pay/play.jpg'
-import paymentsLogo from '../../public/pay/pay.png'
+import footerLogo from '/logo.png'
+import appStore from '/pay/app.jpg'
+import playStore from '/pay/play.jpg'
+import paymentsLogo from '/pay/pay.png'
 
 
 

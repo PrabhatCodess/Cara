@@ -10,6 +10,7 @@ import Contact from './Components/Pages/Contact/Contact';
 import Cart from './Components/Pages/Cart/Cart';
 import Product_details from './Components/Pages/Shop/Product_details';
 import Hero_video from './Components/Hero_video';
+import Preloader from './Components/Preloader';
 
 const App = () => {
 // Initialize Lenis with options for smooth scrolling on all devices

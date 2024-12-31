@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import Lenis from "@studio-freight/lenis";
-import heroVideo from "/public/home.mp4";
+import heroVideo from "/home.mp4";
 
 const HeroVideo = () => {
   const videoContainerRef = useRef(null);

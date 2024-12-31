@@ -6,7 +6,7 @@ import Footer from '../../Footer'
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import Product_details from './Product_details'
-import logoSVG from '../../../../public/Green Luxury Elegant Fashion transparent Logo.svg'
+import logoSVG from '/Green Luxury Elegant Fashion transparent Logo.svg'
 
 
 const Shop = () => {

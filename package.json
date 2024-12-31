@@ -5,19 +5,20 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev:vercel": "cross-env VITE_BASENAME=/ vite",
-    "dev:github": "cross-env VITE_BASENAME=/Cara vite",
-    "dev": "cross-env VERCEL=true vite",
-    "build": "cross-env VERCEL=true vite build",
+    "start": "react-scripts start",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint ."
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
     "@studio-freight/lenis": "^1.0.42",
     "lenis": "^1.1.16",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.0.1"
+    "react-router-dom": "^7.0.1",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
@@ -25,7 +26,6 @@
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
     "autoprefixer": "^10.4.20",
-    "cross-env": "^7.0.3",
     "dotenv": "^16.4.7",
     "eslint": "^9.13.0",
     "eslint-plugin-react": "^7.37.2",

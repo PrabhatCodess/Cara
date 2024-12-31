@@ -7,13 +7,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
-  font-family: 'League Spartan', sans-serif;
 }
 
 body,html{
   width: 100vw;
   height: 100%;
-  font-family: 'Poppins', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -27,3 +25,14 @@ body,html{
 }
 
 
+@layer utilities {
+
+  /* custom class to add in jsx to add clip path in tailwind */
+
+  .clip-your-needful-style {
+
+      clip-path: polygon(0 0, 100% 0, 100% 100px, 0 100px);
+
+  }
+
+}

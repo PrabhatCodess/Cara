@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
-import logoSVG from "/Green Luxury Elegant Fashion transparent Logo.svg?url"
+import logoSVG from "/Green Luxury Elegant Fashion transparent Logo.svg"
 import heroImg from "/about/a6.jpg"
 import heroVideo from "/about/1.mp4?url"
 import Newsletter from '../../Newsletter'
