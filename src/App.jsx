@@ -40,17 +40,29 @@ requestAnimationFrame(raf);
 const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate page loading, you can replace this with actual data fetching
-    const timer = setTimeout(() => {
-      setLoading(false); // Hide preloader after 3 seconds (or based on your needs)
-    }, 10000); // Adjust time as needed
+    const handlePageLoad = () => {
+      // Remove preloader after page load
+      setTimeout(() => {
+        setLoading(false);
+        document.body.style.overflow = ''; // Enable scrolling
+      }, 11000); // Small delay to ensure smooth transition
+    };
 
-    return () => clearTimeout(timer); // Cleanup timeout on component unmount
+    if (document.readyState === 'complete') {
+      handlePageLoad(); // If the page is already loaded
+    } else {
+      window.addEventListener('load', handlePageLoad); // Wait for all resources to load
+    }
+
+    return () => {
+      window.removeEventListener('load', handlePageLoad); // Cleanup the event listener
+    };
   }, []);
 
   return (
       <div>
-         {loading && <Preloader />} {/* Show Preloader if loading is true */}
+         {loading && <Preloader />} {/* Display preloader when loading */}
+      {!loading && (
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
@@ -61,6 +73,7 @@ const [loading, setLoading] = useState(true);
           <Route path="/product_details" element={<Product_details />} />
           <Route path="/hero_video" element={<Hero_video />} />
         </Routes>
+      )}
         <Scrollbar />
       </div>
   )

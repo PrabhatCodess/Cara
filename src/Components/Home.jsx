@@ -35,6 +35,17 @@ const Home = () => {
     //     }
     // }, [isPreloaderVisible, setPreloaderVisible]);
 
+
+        useEffect(() => {
+          // Run animations after the page is fully loaded
+          const timer = setTimeout(() => {
+            gsap.fromTo('.hero', { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 1 });
+            // Initialize counters or other animations here
+          }, 100); // Small delay to sync with preloader
+      
+          return () => clearTimeout(timer); // Cleanup timeout
+        }, []);
+
     return (
         <div>
             {/* {isPreloaderVisible && <Preloader />} */}

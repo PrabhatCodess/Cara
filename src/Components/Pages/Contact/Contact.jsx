@@ -134,7 +134,7 @@ const Contact = () => {
       tablets:max-desktop:py-10
       tablets:max-desktop:w-[100%]">
       <iframe className='
-      mobile:max-tablets:w-[95vw]
+      mobile:max-tablets:w-[100vw]
        mobile:max-tablets:left-40
       tablets:max-desktop:w-[97vw]'
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6029518.964583549!2d0.35343315539767295!3d51.64731150074409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8c485b%3A0xd2ff1883a001afed!2sUniversity%20of%20Oxford!5e0!3m2!1sen!2sin!4v1734280312722!5m2!1sen!2sin"
@@ -151,7 +151,7 @@ const Contact = () => {
 
      </div>
 
-     <div className="form-container h-[100vh] w-[1920px] px-20 py-20
+     <div className="form-container h-[100vh] w-full px-20 py-20
       mobile:max-tablets:px-5
       mobile:max-tablets:py-5
       mobile:max-tablets:h-[200vh]
