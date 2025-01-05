@@ -143,6 +143,7 @@ const Preloader = () => {
         };
     }, []);
     
+    
 
     return (
         <div className='m-0 p-0  box-border w-[100vw] h-[100vh] font-Aeonik-Bold fixed z-50 '>
